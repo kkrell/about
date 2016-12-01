@@ -11,6 +11,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   soep/index
+   twinlife/index
+
 
 
 Indices and tables
