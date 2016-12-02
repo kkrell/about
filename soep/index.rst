@@ -1,7 +1,5 @@
-SOEP
-====
-
-And here we go…
+German Socio-Economic Panel Study (SOEP)
+========================================
 
 .. toctree::
     :maxdepth: 2
