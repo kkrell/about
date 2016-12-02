@@ -1,3 +1,6 @@
+Contents of the study
+=====================
+
 The SOEP started in 1984 as a longitudinal survey of private households
 in the Federal Republic of Germany. The central aim then and now is to
 collect representative micro-data to measure stability and change in

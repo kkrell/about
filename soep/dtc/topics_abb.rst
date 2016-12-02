@@ -1,3 +1,6 @@
+Topics
+======
+
 .. code:: R
 
     topics <- list(

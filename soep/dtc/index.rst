@@ -20,22 +20,10 @@ Besides the SOEPcore study (in the two formats "SOEPclassic" and
 which are more or less closely connected to the SOEPcore Study. However
 this brief introduction focuses only on SOEPcore.
 
-#. `Contents of the study <content.html>`__
-#. `Target Population and Samples <sample.html>`__
-
-    -   The SOEP Samples in Detail, Eligibility and Follow-up, Development of
-    Sample Sizes
-
-#. `Survey Design <design.html>`__
-
-    -   Survey Instruments, Survey Concepts, Survey Modes, Panel Care
-
-#. `Principles of data structure <data-structure.html>`__
-
-    -  SOEPclassic, SOEPlong, Missing conventions
-
 .. toctree::
     :maxdepth: 2
-    :glob:
 
-    *
+    content
+    sample
+    design
+    data-structure

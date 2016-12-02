@@ -1,3 +1,6 @@
+Longitudinal Development of the 1984 Population
+===============================================
+
 .. code:: stata
 
     * Version SOEP 30, Mathis Schröder & Moritz Mannschreck & Jan Goebel

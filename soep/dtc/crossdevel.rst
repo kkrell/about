@@ -1,3 +1,6 @@
+Cross-Sectional Development of Sample Size
+==========================================
+
 .. code:: stata
 
     * Version SOEP 30, Mathis Schroeder, Jan Goebel

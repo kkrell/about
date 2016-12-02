@@ -1,3 +1,6 @@
+Principles of data structure
+============================
+
 The SOEP started with a basic data structure that is now termed
 SOEPclassic. The majority of datafiles still follow this basic
 principle, which is explained in the next section. Since 2012, there is

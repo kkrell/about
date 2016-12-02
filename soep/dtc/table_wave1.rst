@@ -1,3 +1,6 @@
+Starting Sample Size of SOEP-Samples
+====================================
+
 .. code:: stata
 
     * Version SOEP 29, Mathis Schroeder, Jan Goebel

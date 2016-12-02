@@ -1,3 +1,6 @@
+Target Population and Samples
+=============================
+
 The target population covered in the SOEP is defined as the residential
 population living in private households within the current boundaries of
 the Federal Republic of Germany (FRG). Because of changes in these
