@@ -56,33 +56,31 @@ additional information in SOEPclassic are the cross-sectional data files
 provided in each survey year (or "wave") (see Figure 6 for those
 cross-sectional data files included for all waves).
 
-Each wave is identified by letters of the alphabet: the first wave in
-1984 is wave "A", 1985 is wave "B", and so on, up to BB in 2011. To
-simplify notation, the
-":math:`" sign is used, when all waves of one group of datasets are referred to. For example, `\ H
-refers to all household level datasets AH to BBH. For each year of SOEP
-data there are single data files for households (e.g.
-:math:`H) as well as for individual respondents (e.g. `\ P) and children
-(e.g. $KIND) based on interview information. These observations make up
-the "net" population, with each of these files containing as many
-records as interviews could be conducted. Additional data files with a
-limited number of variables based on the "address log" constitute the
-"gross" number of households and persons, i.e. all households and their
-members which were eligible for an interview in any given year.
+Each wave is identified by letters of the alphabet: the first wave in 1984 is
+wave "A", 1985 is wave "B", and so on, up to BB in 2011. To simplify notation,
+the "$" sign is used, when all waves of one group of datasets are referred to.
+For example, $H refers to all household level datasets AH to BBH. For each year
+of SOEP data there are single data files for households (e.g.  $H) as well as
+for individual respondents (e.g. $P) and children (e.g. $KIND) based on
+interview information. These observations make up the "net" population, with
+each of these files containing as many records as interviews could be
+conducted. Additional data files with a limited number of variables based on
+the "address log" constitute the "gross" number of households and persons, i.e.
+all households and their members which were eligible for an interview in any
+given year.
 
 Figure 6: Cross-Sectional Data Files Included in Every Wave
 |Cross-Sectional Data Files Included in Every Wave|
 
-Each new sample is integrated in the old scheme - hence, for Sample C
-(East Germans), the first wave of data gathered in 1990 is still labeled
-"G", as in the original West German sample. Similar, Sample F starts in
-2000 with the letter "Q", and so on. Even though there are many
-different samples in the SOEP, for the most part there is only one
-dataset for each year and topic. For example, the personal interviews
-recorded in any wave are jointly available for all samples in the
-:math:`P files. These considerations apply identically to the generated data files, such as **`\ PGEN\*\*
-(user friendly data on the individual level) and **$HGEN** (user
-friendly data on the household level).
+Each new sample is integrated in the old scheme - hence, for Sample C (East
+Germans), the first wave of data gathered in 1990 is still labeled "G", as in
+the original West German sample. Similar, Sample F starts in 2000 with the
+letter "Q", and so on. Even though there are many different samples in the
+SOEP, for the most part there is only one dataset for each year and topic. For
+example, the personal interviews recorded in any wave are jointly available for
+all samples in the $P files. These considerations apply identically to the
+generated data files, such as **$PGEN** (user friendly data on the individual
+level) and **$HGEN** (user friendly data on the household level).
 
 In addition to the cross-sectional datasets there are datasets which are
 not wave-specific. These include spell data, which are organized by
@@ -121,19 +119,14 @@ Variable names in the SOEPclassic data files follow basic conventions:
 First, there are datasets with "speaking" variable names, where the
 variable name itself conveys something about the information stored in
 this variable. Most generated datasets follow this convention - e.g. the
-variable **PARTNR\ 
-
-.. math::
-
-   ** in
-   the datasets **$PGEN** contains the person identifier for the respondent’s
-   partner. Second, there are variable names which do not "speak", but remain
-   identical across the waves up to a wave identifier, e.g. the variable
-   **I11102
-
-** in the
-**:math:`PEQUIV** datasets always contains post-government incomes. Finally, for the original datasets such as **`\ H,
-:math:`P and `\ KIND**, the variable names are set up "around" the unit
+variable **PARTNR$** in
+the datasets **$PGEN** contains the person identifier for the respondent’s
+partner. Second, there are variable names which do not "speak", but remain
+identical across the waves up to a wave identifier, e.g. the variable
+**I11102** in the
+**$PEQUIV** datasets always contains post-government incomes. Finally, for the
+original datasets such as **$H**, **$P** and **$KIND**, the variable names are
+set up "around" the unit
 of analysis (individual - "p", household - "h", and child - "k") and
 show before this indicator the wave in which the data were collected and
 after it the reference of where in the original survey instrument the
@@ -141,9 +134,9 @@ question can be found (see Figure 9 for an overview). For example, in
 the dataset AP, the variable **AP06** refers to the person questionnaire
 in wave "A" (1984), question 6.
 
-Figure 9: Variable Naming Conventions for :math:`H, `\ P and
-:math:`KIND ![Variable Naming Conventions for `\ H,
-:math:`P and `\ KIND](graphics/Figure\_9.jpg)
+Figure 9: Variable Naming Conventions for $H, $P and
+$KIND ![Variable Naming Conventions for $H,
+$P and $KIND](graphics/Figure\_9.jpg)
 
 Table 5: Variable Names
 
@@ -160,9 +153,9 @@ Table 5: Variable Names
 +---------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | or 5          | indicating questions in different versions of the questionnaire for first-time or new respondents (Blue version of the questionnaire) and those who have already been interviewed before (Green version) - only for 1985-1993 e.g. the "G" in BP27G06, or the "B" in DH26B01                |
 +---------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| or 2 thru 8   | text for variables in :math:`PBRUTTO, `\ HBRUTTO, :math:`PGEN, and `\ HGEN files e.g. BHHGR, the household size in wave 2                                                                                                                                                                   |
+| or 2 thru 8   | text for variables in $PBRUTTO, $HBRUTTO, $PGEN, and $HGEN files e.g. BHHGR, the household size in wave 2                                                                                                                                                                                   |
 +---------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1 thru 8      | text for variables in :math:`PGEN and `\ PEQUIV e.g. PARTNR88, the PERSNR of partner, wave 5 e.g. I1110204 , annual post-government income in wave 21                                                                                                                                       |
+| 1 thru 8      | text for variables in $PGEN and $PEQUIV e.g. PARTNR88, the PERSNR of partner, wave 5 e.g. I1110204 , annual post-government income in wave 21                                                                                                                                               |
 +---------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Note that starting with wave BA in 2010, the variable names change
@@ -194,7 +187,7 @@ and all modified variables are provided in their original form as well.
 SOEPlong thus provides a well-documented compilation of all variables
 and data that is consistent over time. It thereby significantly reduces
 both the number of datasets and the number of variables. Our main
-structural tracking files **:math:`PFAD** and **`\ PHRF** are also
+structural tracking files **$PFAD** and **$PHRF** are also
 provided in a merged "long" form—in other words, weighting factors are a
 ready integrated into PPFADL and HPFADL.
 
