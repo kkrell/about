@@ -199,7 +199,7 @@ Table 3: Changes to the Sample: Respondents and Households
 +--------------------+--------------------------------------------------------------------+--------------------------------------------+
 
 Figure 2: Old and New Households in the SOEP |Old and New Households in
-the SOEP| `R Code to create figure. <hh>`__
+the SOEP| `R Code to create figure. <hh.rst>`__
 
 Development of Sample Sizes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -262,7 +262,7 @@ Table 4: Starting Sample Size of the SOEP Samples
 Figure 3: Cross-Sectional Development of Sample Size (Respondents)
 |Cross-Sectional Development of Sample Size (Respondents): Samples A-K|
 
-`Stata Code to create figure. <crossdevel>`__
+`Stata Code to create figure. <crossdevel.rst>`__
 
 This cross-sectional view is insufficient when examining the
 longitudinal development of the sample, which is influenced by different
@@ -279,7 +279,7 @@ respondents in 1984, as well as their children, of samples A and B.
 Figure 4: Longitudinal Development of the 1984 Population |Longitudinal
 Development of the 1984 Population|
 
-`Stata Code to create figure. <soep_whereabout>`__
+`Stata Code to create figure. <soep_whereabout.rst>`__
 
 .. |Old and New Households in the SOEP| image:: graphics/old-new-hh.png
 .. |Cross-Sectional Development of Sample Size (Respondents): Samples A-K| image:: graphics/crossdevel.png
