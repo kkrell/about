@@ -1,12 +1,13 @@
-* Version SOEP 30, Mathis Schroeder, Jan Goebel
+* DATA Version SOEP 32
+* Author: Mathis Schroeder, Jan Goebel
 * produces figure "Use of Different Interview Modes since 1984"
 
 clear
 set more off
 set mem 100m
 
-global sop "~/data/soep/soep31/stata/"
-local waves "b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be"
+global sop "~/data/soep/soep32/stata/"
+local waves "b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be bf"
 
 use persnr mode84 using $sop/apgen, clear
 replace mode84=. if mode84<0
