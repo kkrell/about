@@ -12,17 +12,17 @@ questionnaire B.
 The fourth column (``value``) identifies an item of an answer list.
 
 
-study
+study\_name
     Name of the study (primary key).
 
-questionnaire
+questionnaire\_name
     Name of the questionnaire (primary key).
 
-answer_list
+answer_list\_name
     Name of the answer\_list within the questionnaire
     (primary key).
 
-value
+value\_name
     Integer value of the answer (primary key).
 
 **(2) Content:** The content of an item is a label. This label can be

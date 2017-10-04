@@ -18,7 +18,7 @@ questionnaire\_name
 question\_name
     Name of the question (primary key).
  
-item
+item\_name
     Number of the question item (primary key). If the ``item`` is empty, the question is considered to be a "root question", which might have items.
  
 
@@ -52,7 +52,7 @@ label
 description
     Human readable description including additional unstructured information.
  
-concept
+concept\_name
     Name of question's concept (foreign key). In DDI on Rails the primary link from a question to one or multiple concepts is through the question's logical variables. Nevertheless, it is possible to link a question or an item directly to a concept.
  
 
@@ -61,10 +61,10 @@ question can be linked to multiple logical variables. Therefore, DDI on
 Rails stores this link with the logical variables. Yet, the questions
 import allows to link every question to one logical variable.
 
-logical_dataset\_name
+dataset\_name
     Logical dataset name (foreign key).
  
-logical_variable\_name
+variable\_name
     Logical variable name (foreign key).
  
 
@@ -89,10 +89,10 @@ view_import_typ
 view_calculated_number`` and ``view_calculated_item``
     Special information for imports following the SOEP-QLIB-conventions.
  
-logical_variable
+variable\_name
     Name of the resulting variable (foreign key, import only).
  
-logical_dataset
+dataset\_name
     Name of the dataset of the resulting variable (foreign key, import only).
  
 

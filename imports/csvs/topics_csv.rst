@@ -5,10 +5,10 @@ Columns
 -------
 
 
-topic
+topic\_name
     Name of the topic (primary key).
 
-parent
+parent\_name
     Name of the parent topic (foreign key). If empty, this
     topic becomes a root-level topic, requiring an icon.
 
