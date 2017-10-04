@@ -5,10 +5,10 @@ Columns
 -------
 
 
-concept
+concept\_name
     Name of the concept (primary key).
 
-topic
+topic\_name
     Name of the topic (primary key).
 
 label

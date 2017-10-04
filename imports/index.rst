@@ -82,54 +82,19 @@ All levels
 
 ::
 
-    import/
-    |-- system/
-    |   |-- endnote.xml
-    |   |-- endnote-keys.txt
-    |   |-- ddiOnRails.png
-    |   study-first/
-    |   |-- studies.csv
-    |   |-- variables.csv
-    |   |-- ...all other csv files...
-    |   |-- files/
-    |   |   |-- ...all files for public folder...
-    |   |   qedml/
-    |   |   |-- ...questionnaires in QeDML-XML-format...
-    |   |   r2ddi/
-    |   |   |-- version/
-    |   |   |   |-- ...dataset descriptions in DDI-C-XML...
-    |-- study-second/
-    |   |-- ...like study-first...
-
-Import order
-------------
-
-#.  Studies
-
-    -   study description
-
-#.  Conceptual elements (study-independent):
-
-    -   concepts
-    -   analysis units
-    -   periods
-    -   conceptual datasets
-
-#.  Instruments
-
-    -   instruments (JSON combining questionnaires, questions, and answers)
-
-#.  Data
-
-    -   releases
-    -   datasets
-    -   variables
-    -   r2ddi datasets
-    -   question-variable links
-
-#.  Publication
-
-    -   publications in bibtex format
+    ddionrails/
+    |-- study.md
+    |-- variables.csv
+    |-- ...all other csv files...
+    |-- datasets/
+    |   |-- version/
+    |   |   |-- ...dataset descriptions in DDI-C-XML...
+    |-- files/
+    |   |-- ...all files for public folder...
+    |-- instruments/
+    |-- qedml/
+    |   |-- ...questionnaires in QeDML-XML-format...
+    |-- topics/
 
 Formats
 -------
@@ -145,22 +110,18 @@ CSV Imports
 .. toctree::
     :maxdepth: 1
 
-    csvs/studies_csv
+    csvs/study_md
     csvs/topics_csv
     csvs/concepts_csv
     csvs/periods_csv
     csvs/analysis_units_csv
     csvs/conceptual_datasets_csv
-    csvs/logical_datasets_csv
-    csvs/logical_variables_csv
-    csvs/distributions_csv
-    csvs/datasets_distributions_csv
+    csvs/datasets_csv
     csvs/variables_csv
-    csvs/variable_categories_csv
-    csvs/generations_csv
+    csvs/release_csv
+    csvs/datasets_release_csv
+    csvs/transformations_csv
     csvs/questionnaires_csv
     csvs/questions_csv
     csvs/answers_csv
-    csvs/translations_csv
-    csvs/script_generators_csv
 

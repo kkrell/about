@@ -5,10 +5,10 @@ Columns
 -------
 
 
-study
+study\_name
     Name of the study (primary key).
 
-questionnaire
+questionnaire\_name
     Name of the questionnaire (primary key).
 
 label
@@ -17,12 +17,12 @@ label
 description
     Description using Markdown.
 
-analysis_unit
+analysis_unit\_name
     Name of the analysis unit (foreign key).
 
-period
+period\_name
     Name of the time period (foreign key).
 
-dataset
+dataset\_name
     Name of the dataset (foreign key).
 

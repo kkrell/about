@@ -1,20 +1,20 @@
-datasets\_distributions.csv
+datasets\_release.csv
 ===========================
 
 Columns
 -------
 
 
-study
+study\_name
     Name of the study (primary key).
 
-distribution
+release\_name
     Name of the distribution (primary key).
 
-dataset
+dataset\_name
     Name of the dataset (primary key).
 
-version
+version\_name
     Versio of the dataset (primary key).
 
 This table builds a has-and-belongs-to-many relationship between

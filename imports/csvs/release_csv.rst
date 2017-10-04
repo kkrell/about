@@ -1,14 +1,14 @@
-distributions.csv
+release.csv
 =================
 
 Columns
 -------
 
 
-study
+study\_name
     Name of the study (primary key).
 
-distribution
+release\_name
     Name of the Distribution (primary key).
 
 label

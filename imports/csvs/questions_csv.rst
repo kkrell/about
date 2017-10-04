@@ -9,13 +9,13 @@ note that a question can consist of multiple items. In this case the
 first item is considered to be the root element and the item is either
 empty or "root".
 
-study
+study\_name
     Name of the study (primary key).
  
-questionnaire
+questionnaire\_name
     Name of the questionnaire (primary key).
  
-question
+question\_name
     Name of the question (primary key).
  
 item
@@ -34,7 +34,7 @@ text
 instruction
     Interviewer instruction.
  
-answer_list
+answer_list\_name
     Name of the list of answers (foreign key). The ``answers.csv``.
  
 scale
@@ -61,10 +61,10 @@ question can be linked to multiple logical variables. Therefore, DDI on
 Rails stores this link with the logical variables. Yet, the questions
 import allows to link every question to one logical variable.
 
-logical_dataset
+logical_dataset\_name
     Logical dataset name (foreign key).
  
-logical_variable
+logical_variable\_name
     Logical variable name (foreign key).
  
 

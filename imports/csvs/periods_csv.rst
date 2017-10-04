@@ -5,7 +5,7 @@ Columns
 -------
 
 
-period
+period\_name
     Name of the period (primary key).
 
 label

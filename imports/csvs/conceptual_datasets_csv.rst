@@ -5,12 +5,12 @@ Columns
 -------
 
 
-conceptual_dataset
+conceptual\_dataset\_name
     Name of the conceptual dataset (primary key).
 
 label
     Short label.
 
-description"
+description
     Description using Markdown.
 

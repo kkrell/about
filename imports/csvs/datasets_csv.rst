@@ -5,10 +5,10 @@ Columns
 -------
 
 
-study
+study\_name
     Name of the study (primary key).
 
-logical_dataset
+logical\_dataset_name
     Name of the dataset (primary key).
 
 label
@@ -17,12 +17,12 @@ label
 description
     Description using Markdown.
 
-conceptual_dataset
+conceptual\_dataset\_name
     Name of the conceptual dataset (foreign key).
 
-analysis_unit
+analysis\_unit\_name
     Name of the analysis unit (foreign key).
 
-period
+period\_name
     Name of the time period (foreign key).
 
